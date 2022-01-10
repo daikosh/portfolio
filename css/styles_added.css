@@ -588,4 +588,8 @@ margin-top: 0;
 }
 
 
-/* ギャラリー */
+/* テキスト */
+.mytext{
+  line-height:25px;
+  text-align: justify;
+}
