@@ -55,7 +55,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <!-- Masthead -->
         <div class="hero overlay">
             <div class="text-box">
@@ -104,10 +104,10 @@
                         <div class="featured-text text-center p-3">
                             <h4 class="text-white">What I can contribute</h4>
                             <h6 class="text-white-50 mytext">
-                                中学1年生の頃にプログラミング (HTML、十進BASIC、Ruby) と出会ってから早15年。
-                                大学院時代にはC++を用いた数値流体解析プログラムを作成。
-                                社会人になってからは、AI・データサイエンスを学ぶためにPythonを勉強開始。
-                                最近では学習モデルやデジタルツールなどをデプロイするためにフロントエンドを勉強中。
+                                中学1年生の頃にプログラミング (HTML、十進BASIC、Ruby) と出会ってから早15年、ほそぼそとコーディングに勤しんできた。
+                                大学・大学院時代にはC++を用い、数値流体解析プログラムを作成していた。
+                                社会人になってからは、データサイエンスを学ぶためにPythonやRを中心に勉強。
+                                最近は学習モデルやアプリケーションなどをデプロイすることを目的にフロントエンドを勉強中。
                             </h6>
                         </div>
                     </div>
@@ -173,9 +173,8 @@
                                 </div>
                                 <div class="col-lg-5">
                                     <p>
-                                        Streamlitを用いて簡単な機械学習モデルサイトを作成。
-                                        Streamlitとは、手軽にフロントエンドアプリケーションを作成できるPythonのフレームワーク。
-                                        Webアプリ制作に時間を取られたくないデータサイエンティストのために作られた。
+                                        代表的な教師あり学習手法であるランダムフォレスト回帰を手軽に試せるWebアプリ。
+                                        データサイエンティスト界隈で話題のStreamlitというPythonのフレームワークを用いた。
                                         Streamlit Sharingに公開中。<br><br>
                                         <a href="https://share.streamlit.io/daikosh/randomforestpredictor/main.py"
                                            target="_blank"
@@ -221,11 +220,13 @@
                                 </div>
                                 <div class="col-lg-5">
                                     <p>
-                                        Djangoを用いた大学時代の友人の結婚式2次会特設サイト。
-                                        「縁じゃけえプロジェクト」
-                                        有志4人組で
+                                        友人の結婚式二次会特設サイト。
+                                        大学時代のサークルの友人同士が結婚するということで、同じサークルに所属していた有志4人で結婚式二次会を企画・運営する「縁じゃけえプロジェクト」を立ち上げた。
+                                        ちょうどPythonのフレームワークであるDjangoを学んでいたため、参加者限定サイトを作成することを提案し、実現させた。
+                                        当初は二次会当日のコンテンツを考えることだけを想定していたが、特設サイトができたことで、毎週土曜日にコンテンツを配信するというスタイルに。
+                                        新郎がパーソナリティを務めるラジオや新郎新婦の生い立ちを年表形式で表した「タイムライン」などを掲載した。
 
-                                        ラジオやタイムライン<br><br>
+                                        <br><br>
                                         作成: 2021年10月<br>
                                         公開元: Heroku<br>
                                         使用言語・FWなど:<br>
@@ -436,7 +437,7 @@
             var skillSetFrontEnd = new Chart(ctx1, {
                 type: 'radar',
                 data: {
-                    labels: ["HTML/CSS", "JavaScript", "jQuery", "React", "Vue.js"],
+                    labels: ["HTML", "JavaScript", "jQuery", "React", "CSS"],
                     datasets: [
                         {
                             label: "Front-End",
@@ -447,7 +448,7 @@
                             pointHoverBackgroundColor: "#fff",
                             pointHoverBorderColor: "rgba(188,226,232,1)",
                             hitRadius: 5,
-                            data: [4,3,2,2,2]
+                            data: [4,3,2,2,3]
                         }
                     ]
                 },
@@ -482,7 +483,7 @@
             var skillSetBackEnd = new Chart(ctx2, {
                 type: 'radar',
                 data: {
-                    labels: ["Python", "Django", "Ruby", "Ruby on Rails", "Node.js"],
+                    labels: ["Python", "Django", "Ruby", "Ruby on Rails", "C++"],
                     datasets: [
                         {
                             label: "Back-End",
@@ -493,7 +494,7 @@
                             pointHoverBackgroundColor: "#fff",
                             pointHoverBorderColor: "rgba(181,255,20,1)",
                             hitRadius: 5,
-                            data: [4,3,3,2,1]
+                            data: [4,3,3,2,4]
                         }
                     ]
                 },
@@ -528,7 +529,7 @@
             var skillSetOthers = new Chart(ctx3, {
                 type: 'radar',
                 data: {
-                    labels: ["Scikit-learn", "PyTorch", "Tensorflow", "Streamlit", "R", "C++"],
+                    labels: ["Scikit-learn", "PyTorch", "Tensorflow", "Streamlit", "R"],
                     datasets: [
                         {
                             label: "Others",
@@ -539,7 +540,7 @@
                             pointHoverBackgroundColor: "#fff",
                             pointHoverBorderColor: "rgba(200,112,126,1)",
                             hitRadius: 5,
-                            data: [4,3,3,5,3,4]
+                            data: [4,3,3,5,3]
                         }
                     ]
                 },
